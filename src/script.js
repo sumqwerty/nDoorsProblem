@@ -1,4 +1,14 @@
 
+function closeInstructions(){
+    document.getElementById("instruction").classList.toggle("invisible");
+    document.getElementById("holder").classList.toggle("bluring");
+}
+
+document.getElementById("close-ins").addEventListener("click",closeInstructions);
+
+
+
+
 const sketch = (skt) => {
     let appCanvas;
     let obj;
@@ -11,10 +21,6 @@ const sketch = (skt) => {
         
     };
 
-    // skt.keyReleased=()=>{
-    //     if(skt.key == 'w')obj.decDepth();
-    //     // else if(skt.key == 's')obj.incDepth();
-    // }
     skt.keyPressed=()=>{
         if(skt.key == ' ')obj.shoot();
     }
@@ -30,4 +36,6 @@ const sketch = (skt) => {
 
 
 let myp5 = new p5(sketch);
+
+
 

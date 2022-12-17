@@ -1,4 +1,102 @@
-#canvas-container{
-    margin: 2rem;
-    width: fit-content;
+
+@font-face {
+    font-family: myFirstFont;
+    src:url("./fonts/AGoblinAppears-o2aV.ttf");
 }
+
+@font-face {
+    font-family: doom;
+    src:url("./fonts/Doom2016Text-GOlBq.ttf");
+}
+
+@font-face {
+    font-family: pixel;
+    src:url("./fonts/Emulogic-zrEw.ttf");
+}
+
+body{
+    background-color: black;
+    color: white !important;
+}
+
+button{
+    text-align: center;
+    font-family: pixel !important;
+}
+
+h1{
+    text-align: center;
+    font-family: myFirstFont;
+}
+h2{
+    text-align: center;
+    font-family: myFirstFont;
+}
+
+p{
+    font-family: pixel;
+}
+#instruction{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    position:absolute;
+    width: inherit;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: 2rem;
+    border-style: solid;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    border-color: red;
+
+}
+
+
+
+#holder{
+    display: flex;
+    /* background-color: blue; */
+    margin: 3.5rem;
+    flex-direction: column;
+    /* align-content: center; */
+}
+
+#key-controls{
+    display: flex;
+    flex-direction: column;    
+}
+
+
+#control-bttns{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#close-ins{
+    font-size: 1.5rem !important;
+}
+
+.bttn-holder{
+    margin: 0.5rem;
+}
+
+.control-block{
+    size: 20rem !important;
+    font-family: myFirstFont;
+    width: 50%;
+}
+
+.bluring{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+}
+
+.invisible{
+    display: none;
+}
+
