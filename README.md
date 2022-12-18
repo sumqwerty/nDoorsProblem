@@ -52,7 +52,7 @@ So for N=5, 2 doors will be remain open in the end(door 1 and 4 in i5).
 ![nbase5](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/n5base.png)
 
 
-#### 2. Scaling it up by taking N=200, we will get\
+#### 2. Scaling it up by taking N=200, we will get
 ![nbase200](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/n200base.png)
 
 
