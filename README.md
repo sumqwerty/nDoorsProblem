@@ -50,4 +50,4 @@ Scaling it up by taking N=200, we will get,
 ![nbase200](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/n200base.png)
 
 Now we transalte this pattern to the center of the display window, and mirror it to fill all the 4 quadrants of the window
-![tanslated](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/translated.png)&nbsp&nbsp&nbsp&nbsp![filled](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/filled.png)
+![tanslated](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/translated.png) [filled](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/filled.png)
