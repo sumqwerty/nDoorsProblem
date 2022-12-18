@@ -61,9 +61,9 @@ So for N=5, 2 doors will be remain open in the end(door 1 and 4 in i5).
 &nbsp;&nbsp;![filled](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/filled.png)
 
 
-### 4. After modifying the dipslay function to add some edge cases to clear the black veritcal lines we end up with this,
+### 4. After modifying the dipslay function to add some edge cases to clear the noisy vertical lines we get the following output which looks like a passage with walls on either sides going into the screen
 ![finalwb](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/finalwb.png)
 
 
-### 5. Finally filling in the colors and adding a static sprite of hands a holding a gun, give this a retro 3d game era look,
+### 5. Finally filling in the colors and adding a static sprite, gives this a retro 3d game era look,
 ![final](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/final.png)
