@@ -37,7 +37,6 @@ Similarly after 2nd(i2) traversal our matrix will be\
 After the 2nd(i2)traversal, in the array above door number 1,3,5 remain unaffected, hence you see 1 on 1st, 3rd and 5th position in i2, but door number 2 & 4 were toggled hence became 0.\
 
 Now we repeate this process until we have traversed the whole matrix\
-                                                            (  1,2,3,4,5  )\
                                                             [\
                                                    i1         [1,1,1,1,1],\
                                                    i2         [1,0,1,0,1],\
