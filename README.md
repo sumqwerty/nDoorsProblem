@@ -7,14 +7,14 @@ What will be the state of k‘th door after all the passes? How many doors will 
 ## Solution
 This problem can be solved mainly by 2 methods. 
 1. First the mathematical one, which states that for N doors, the number of doors that'll be in the open state in the Nth pass will equal to the number of perfect squares that exist up to N. (Detailed explanation  [here](https://www.ritambhara.in/n-doors-puzzle/))
-2. The used a brute force approach. Suppose there are 5 doors, for solving this take a 2d matrix of size 5x5. Now each i'th subarray in the matrix will represent the state of the doors after i'th pass. For instance, initially our matrix will be,\
-                                                            [\
-                                                   i1         [0,0,0,0,0],\
-                                                   i2         [0,0,0,0,0],\
-                                                   i3         [0,0,0,0,0],\
-                                                   i4         [0,0,0,0,0],\
-                                                   i5         [0,0,0,0,0],\
-                                                            ]\
+2. The used a brute force approach. Suppose there are 5 doors, for solving this take a 2d matrix of size 5x5. Now each i'th subarray in the matrix will represent the state of the doors after i'th pass. For instance, initially our matrix will be\
+                                                *            [\
+                                                *   i1         [0,0,0,0,0],\
+                                                *   i2         [0,0,0,0,0],\
+                                                *   i3         [0,0,0,0,0],\
+                                                *   i4         [0,0,0,0,0],\
+                                                *   i5         [0,0,0,0,0],\
+                                                *            ]\
                                                             
 The Zeros represent that all doors are close, so after the 1st(i1) traversal, all the doors that are previously closed will be opened and our matrix will become\ 
                                                             [\
@@ -25,7 +25,7 @@ The Zeros represent that all doors are close, so after the 1st(i1) traversal, al
                                                    i5         [0,0,0,0,0],\
                                                             ]\
                                                             
-Similarly after 2nd(i2) traversal our matrix will be \
+Similarly after 2nd(i2) traversal our matrix will be\
                                                             [\
                                                    i1         [1,1,1,1,1],\
                                                    i2         [1,0,1,0,1],\
@@ -34,7 +34,7 @@ Similarly after 2nd(i2) traversal our matrix will be \
                                                    i5         [0,0,0,0,0],\
                                                             ]\
 After the 2nd(i2)traversal, in the array above door number 1,3,5 remain unaffected, hence you see 1 on 1st, 3rd and 5th position in i2, but door number 2 & 4 were toggled hence became 0.\
-Now we repeate this process until the last traveral and our array looks like this,\ 
+Now we repeate this process until the last traveral and our array looks like this\ 
                                                             (  1,2,3,4,5  )\
                                                             [\
                                                    i1         [1,1,1,1,1],\
