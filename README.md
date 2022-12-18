@@ -46,24 +46,24 @@ Now we repeate this process until we have traversed the whole matrix\
                                                             ]\
 So for N=5, 2 doors will be remain open in the end(door 1 and 4 in i5).
 
-### Visualizing this array
+## Visualizing this array
 
-#### 1. After this array is generated, each element is mapped to a rectangle on the screen, if the door is open then display a white rectangle and if the doors is closed display a black one. Doing this, the following pattern will be generated\
+### 1. After this array is generated, each element is mapped to a rectangle on the screen, if the door is open then display a white rectangle and if the doors is closed display a black one. Doing this, the following pattern will be generated
 ![nbase5](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/n5base.png)
 
 
-#### 2. Scaling it up by taking N=200, we will get
+### 2. Scaling it up by taking N=200, we will get
 ![nbase200](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/n200base.png)
 
 
-#### 3. Now we transalte this pattern to the center of the display window, and mirror it to fill all the 4 quadrants of the window
+### 3. Now we transalte this pattern to the center of the display window, and mirror it to fill all the 4 quadrants of the window
 ![tanslated](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/translated.png)
 &nbsp;&nbsp;![filled](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/filled.png)
 
 
-#### 4. After modifying the dipslay function to add some edge cases to clear the black veritcal lines we end up with this,
+### 4. After modifying the dipslay function to add some edge cases to clear the black veritcal lines we end up with this,
 ![finalwb](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/finalwb.png)
 
 
-#### 5. Finally filling in the colors and adding a static sprite of hands a holding a gun, give this a retro 3d game era look,
+### 5. Finally filling in the colors and adding a static sprite of hands a holding a gun, give this a retro 3d game era look,
 ![final](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/final.png)
