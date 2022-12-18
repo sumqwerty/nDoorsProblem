@@ -50,16 +50,16 @@ So for N=5, 2 doors will be remain open in the end(door 1 and 4 in i5).
 
 #### 2. Scaling it up by taking N=200, we will get\
 ![nbase200](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/n200base.png)
-\
 
-#### 3. Now we transalte this pattern to the center of the display window, and mirror it to fill all the 4 quadrants of the window\
+
+#### 3. Now we transalte this pattern to the center of the display window, and mirror it to fill all the 4 quadrants of the window
 ![tanslated](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/translated.png)
-![filled](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/filled.png)
-\
+<pre>   </pre>![filled](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/filled.png)
+
 
 #### 4. Sfter modifying the dipslay function to add some edge cases to clear the black veritcal lines we end up with this,
 ![finalwb](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/finalwb.png)
-\
+
 
 #### 5. Finally filling in the colors and adding a static sprite of hands a holding a gun, give this a retro 3d game era look,
 ![final](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/final.png)
