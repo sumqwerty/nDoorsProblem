@@ -15,7 +15,7 @@ This problem can be solved mainly by 2 methods.
                                                    i4         [0,0,0,0,0],\
                                                    i5         [0,0,0,0,0],\
                                                             ]\
-The Zeros represent that all doors are close, so after the 1st(i1) traversal, all the doors that are previously closed will be opened and our matrix will become\ 
+The Zeros represent that all doors are close, so after the 1st(i1) traversal, all the doors that are previously closed will be opened and our matrix will become\
                                                             [\
                                                    i1         [1,1,1,1,1],\
                                                    i2         [0,0,0,0,0],\
