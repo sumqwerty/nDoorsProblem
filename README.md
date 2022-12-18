@@ -54,10 +54,10 @@ So for N=5, 2 doors will be remain open in the end(door 1 and 4 in i5).
 
 #### 3. Now we transalte this pattern to the center of the display window, and mirror it to fill all the 4 quadrants of the window
 ![tanslated](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/translated.png)
-&nbsp;&nbsp;![filled](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/filled.png)
+&nbsp;&nbsp;&nbsp;![filled](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/filled.png)
 
 
-#### 4. Sfter modifying the dipslay function to add some edge cases to clear the black veritcal lines we end up with this,
+#### 4. After modifying the dipslay function to add some edge cases to clear the black veritcal lines we end up with this,
 ![finalwb](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/finalwb.png)
 
 
