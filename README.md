@@ -44,4 +44,10 @@ Now we repeate this process until the last traveral and our array looks like thi
                                                             ]\
 So for N=5, 2 doors will be remain open in the end(door 1 and 4 in i5).
 ### Visualizing this array
-After this array is generated, each element is mapped to a rectangle on the screen, if the door is open then display a white rectangle and if the doors is closed display a black one.
+After this array is generated, each element is mapped to a rectangle on the screen, if the door is open then display a white rectangle and if the doors is closed display a black one. Doing this, the following pattern will be generated\
+![nbase5](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/n5base.png)
+Scaling it up by taking N=200, we will get,
+![nbase200](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/n200base.png)
+
+Now we transalte this pattern to the center of the display window, and mirror it to fill all the 4 quadrants of the window
+![tanslated](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/translated.png)&nbsp&nbsp&nbsp&nbsp![filled](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/filled.png)
