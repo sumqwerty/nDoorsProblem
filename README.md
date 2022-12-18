@@ -15,6 +15,7 @@ This problem can be solved mainly by 2 methods.
                                                    i4         [0,0,0,0,0],\
                                                    i5         [0,0,0,0,0],\
                                                             ]\
+                                                            
 The Zeros represent that all doors are close, so after the 1st(i1) traversal, all the doors that are previously closed will be opened and our matrix will become\
                                                             [\
                                                    i1         [1,1,1,1,1],\
@@ -32,7 +33,9 @@ Similarly after 2nd(i2) traversal our matrix will be\
                                                    i4         [0,0,0,0,0],\
                                                    i5         [0,0,0,0,0],\
                                                             ]\
+
 After the 2nd(i2)traversal, in the array above door number 1,3,5 remain unaffected, hence you see 1 on 1st, 3rd and 5th position in i2, but door number 2 & 4 were toggled hence became 0.\
+
 Now we repeate this process until the last traveral and our array looks like this\ 
                                                             (  1,2,3,4,5  )\
                                                             [\
@@ -43,7 +46,9 @@ Now we repeate this process until the last traveral and our array looks like thi
                                                    i5         [1,0,0,1,0],\
                                                             ]\
 So for N=5, 2 doors will be remain open in the end(door 1 and 4 in i5).
+
 ### Visualizing this array
+
 #### 1. After this array is generated, each element is mapped to a rectangle on the screen, if the door is open then display a white rectangle and if the doors is closed display a black one. Doing this, the following pattern will be generated\
 ![nbase5](https://github.com/sumqwerty/nDoorsProblem/blob/main/imgs/n5base.png)
 
