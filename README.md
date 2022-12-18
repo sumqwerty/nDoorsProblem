@@ -7,7 +7,7 @@ What will be the state of k‘th door after all the passes? How many doors will 
 ## Solution
 This problem can be solved mainly by 2 methods. 
 1. First the mathematical one, which states that for N doors, the number of doors that'll be in the open state in the Nth pass will equal to the number of perfect squares that exist up to N. (Detailed explanation  [here](https://www.ritambhara.in/n-doors-puzzle/))
-2. The used a brute force approach. Suppose there are 5 doors, for solving this take a 2d matrix of size 5x5. Now each i'th subarray in the matrix will represent the state of the doors after i'th pass. For instance, initially our matrix will be\
+2. I used a brute force approach. Suppose there are 5 doors, for solving this take a 2d matrix of size 5x5. Now each i'th subarray in the matrix will represent the state of the doors after i'th pass. For instance, initially our matrix will be\
                                                             [\
                                                    i1         [0,0,0,0,0],\
                                                    i2         [0,0,0,0,0],\
